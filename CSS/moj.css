@@ -1,0 +1,64 @@
+.bg {
+	width: 100vw;
+	height: 100vh;
+	background-color: grey;
+	transition: 0.3s;
+}
+
+p {
+	padding: 10%;
+	text-align: center;
+    font-weight: bold;
+}
+
+.test {
+	position: absolute;
+	top: 100px;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	transform: translateX(-50%);
+	border-radius: 25px;
+	box-shadow: 0 0 5px black;
+	color: black;
+}
+
+.blue {
+	left: 20%;
+	background-color: blue;
+	border: 3px solid black;
+}
+
+.green {
+	left: 40%;
+	background-color: green;
+	border: 3px solid black;
+}
+
+.red {
+	left: 60%;
+	background-color: red;
+	border: 3px solid black;
+}
+
+.yellow {
+	left: 80%;
+	background-color: yellow;
+	border: 3px solid black;
+}
+
+.blue:hover ~ .bg {
+	background-color: blue;
+}
+
+.green:hover ~ .bg {
+	background-color: green;
+}
+
+.red:hover ~ .bg {
+	background-color: red;
+}
+
+.yellow:hover ~ .bg {
+	background-color: yellow;
+}
